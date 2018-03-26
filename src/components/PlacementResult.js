@@ -50,6 +50,7 @@ export default class PlacementResult extends React.Component<PlacementResultDefa
           src={this.props.imageUrl}
           title={rawText}
           alt={rawText}
+          style={{ width: '100%' }}
         />
         {text}
       </div>

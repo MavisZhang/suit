@@ -190,9 +190,6 @@ export default class FacetInsights extends React.Component<FacetInsightsDefaultP
           <div style={{ gridRow: 'span 2' }}>
             {this.facetForField('table', facetMap, 'Table')}
           </div>
-          <div>
-            {this.facetForField('keyphrases', facetMap, 'Key Phrases')}
-          </div>
           <div style={{ gridColumn: 'span 3' }}>
             {this.facetForField('date', facetMap, 'Date')}
           </div>
